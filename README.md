@@ -12,10 +12,13 @@ Thus, it turned out to increase Recall from 0.88 to 0.97 using transfer learning
 
 Used image dataset from Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). I have applied the only one augmentation: RandomHorizontalFlip.
 
-I have prepared train, val and test datasets in [RoboFlow](https://www.roboflow.com)
+I have prepared train, val and test datasets in <a href="http:/roboflow.com/" rel="some text">![Foo](https://a.radikal.ru/a40/2202/6a/bdf9b3256872.png)</a>.
 
 ## <div align="center">Some test images: </div>
 
 ![The first test sample image](https://github.com/Kuaranir/Detection-of-pneumonia-on-X-Rays/blob/main/test-sample-1.png)
 ![The second test sample image](https://github.com/Kuaranir/Detection-of-pneumonia-on-X-Rays/blob/main/test-sample-2.png)
 ![The third test sample image](https://github.com/Kuaranir/Detection-of-pneumonia-on-X-Rays/blob/main/test-sample-3.png)
+
+
+This is my train pet-project.
