@@ -2,7 +2,8 @@
 
 ### Binary classification
 
-Firstly, I have attempted to train ResNet152 CNN without weights, using Tensorflow. I've obtained accuracy = 0.92 on the train dataset, accuracy = 0.89 on the validation dataset and recall = 0.88. It meaned overfitting. Further, I've decided to apply another approach and used PyTorch.
+Firstly, I have attempted to train ResNet152 CNN without weights, using Tensorflow. I've obtained accuracy = 0.92 on the train dataset, accuracy = 0.89 on the validation dataset and recall = 0.88. It meaned overfitting.
+Further, I've decided to apply another approach and used PyTorch.
 I chose ResNet50 with weights, freezed all the layers and added linear classifier (with 2 outputs). It took only 10 epochs to get enough good results.
 
 Results achieved: train acc = 0.94, validation acc = 0.97, test acc = 0.95. Precision = 0.97, Recall = 0.97.
