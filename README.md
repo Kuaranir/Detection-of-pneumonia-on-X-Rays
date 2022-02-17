@@ -1,4 +1,4 @@
-# Detection-of-pneumonia-on-X-Rays
+# <div align="center">Detection of pneumonia on X-Rays</div>
 
 ### Binary classification
 
@@ -7,8 +7,14 @@ I chose ResNet50 with weights, freezed all the layers and added linear classifie
 
 Results achieved: train acc = 0.94, validation acc = 0.97, test acc = 0.95. Precision = 0.97, Recall = 0.97.
 
-Thus, it turned out to increse Recall from 0.88 to 0.97 using transfer learning. FalseNegatives have been reduced from 44 to 26. 
+Thus, it turned out to increase Recall from 0.88 to 0.97 using transfer learning. FalseNegatives have been reduced from 44 to 26. 
 
-Used image dataset from Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+Used image dataset from Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). I have applied the only one augmentation: RandomHorizontalFlip.
 
-I have prepared train, val, test datasets in [RoboFlow](https://www.roboflow.com)
+I have prepared train, val and test datasets in [RoboFlow](https://www.roboflow.com)
+
+## <div align="center">Some test images: </div>
+
+![The first test sample image](https://github.com/Kuaranir/Detection-of-pneumonia-on-X-Rays/blob/main/test-sample-1.png)
+![The second test sample image](https://github.com/Kuaranir/Detection-of-pneumonia-on-X-Rays/blob/main/test-sample-2.png)
+![The third test sample image](https://github.com/Kuaranir/Detection-of-pneumonia-on-X-Rays/blob/main/test-sample-3.png)
