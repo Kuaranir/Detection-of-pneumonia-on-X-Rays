@@ -1,1 +1,14 @@
 # Detection-of-pneumonia-on-X-Rays
+
+### Binary classification
+
+Firstly, I have attempted to train ResNet152 CNN without weights, using Tensorflow. I've obtained accuracy = 0.92 on the train dataset, accuracy = 0.89 on the validation dataset and recall = 0.88. It meaned overfitting. Further, I've decided to apply another approach and used PyTorch.
+I chose ResNet50 with weights, freezed all the layers and added linear classifier (with 2 outputs). It took only 10 epochs to get enough good results.
+
+Results achieved: train acc = 0.94, validation acc = 0.97, test acc = 0.95. Precision = 0.97, Recall = 0.97.
+
+Thus, it turned out to increse Recall from 0.88 to 0.97 using transfer learning. FalseNegatives have been reduced from 44 to 26. 
+
+Used image dataset from Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
+I have prepared train, val, test datasets in [RoboFlow](https://www.roboflow.com)
