@@ -9,7 +9,7 @@ I chose ResNet50 with weights, freezed all the layers and added linear classifie
 
 Results achieved: train acc = 0.94, validation acc = 0.97, test acc = 0.95. Precision = 0.97, Recall = 0.97.
 
-Thus, it turned out to increase Recall from 0.88 to 0.97 using transfer learning. FalseNegatives have been reduced from 44 to 26. 
+Thus, it turned out to increase Recall from 0.88 to 0.97 using transfer learning. FalseNegatives have been reduced from 44 to 25. 
 
 Used image dataset from Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). I have applied the only one augmentation: RandomHorizontalFlip.
 
