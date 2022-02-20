@@ -21,7 +21,7 @@ I have prepared train, val and test datasets in <a href="http:/roboflow.com/" re
 ![The second test sample image](https://github.com/Kuaranir/Detection-of-pneumonia-on-X-Rays/blob/main/test-sample-2.png)
 ![The third test sample image](https://github.com/Kuaranir/Detection-of-pneumonia-on-X-Rays/blob/main/test-sample-3.png)
 
-# <div align="center">Confusion matrix</div>
+# <div align="center">Confusion matrix:</div>
 
 ![Confusion matrix](https://github.com/Kuaranir/Detection-of-pneumonia-on-X-Rays/blob/main/confusion_matrix.png)
 
