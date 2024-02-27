@@ -2,6 +2,8 @@
 
 ### Binary classification
 
+Для нахождения пневмонии была обучена нейросеть ResNet50 на фреймворке PyTorch
+
 Firstly, I have attempted to train ResNet152 CNN without weights, using Tensorflow. I've obtained accuracy = 0.92 on the train dataset, accuracy = 0.89 on the validation dataset. Recall - 0.88. It meaned overfitting.
 
 Further, I've decided to apply another approach and used PyTorch.
